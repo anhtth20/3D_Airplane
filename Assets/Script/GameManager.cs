@@ -1,12 +1,12 @@
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine;
 
 
 public class GameManager : MonoBehaviour
-
 {
+
     public Canvas GameMenu;
 
     private bool isShowingMenu = false;
