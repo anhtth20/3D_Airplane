@@ -1,0 +1,42 @@
+# ==== Unity ====
+# Thư mục cache siêu nặng (bắt buộc ignore)
+[Ll]ibrary/
+[Ll]ibrary/**
+
+# Tạm & biên dịch trung gian
+[Tt]emp/
+[Oo]bj/
+[Bb]ee/
+[Ll]ogs/
+MemoryCaptures/
+
+# Build output
+[Bb]uild/
+[Bb]uilds/
+
+# Package cache & artifact DB (rất nặng)
+[Ll]ibrary/PackageCache/
+[Ll]ibrary/ArtifactDB
+
+# Cấu hình người dùng (không cần share)
+UserSettings/
+
+# ==== IDE / VS ====
+.vs/
+*.sln
+*.csproj
+*.user
+*.suo
+*.tmp
+*.pidb
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ==== Giữ file .meta (quan trọng với Unity) ====
+!*.meta
+
+# (Tùy chọn) Nếu từng build WebGL trong repo, tránh đẩy file release:
+#Library/Bee/artifacts/WebGL/
